@@ -37,7 +37,7 @@
       <p>Connect to our channel on SwiftIRC to get started today. You can use any IRC client of your choice such as 
          <a href="http://www.swiftkit.net/index.php?page=downloads">SwiftKit</a> and 
          <a href="http://www.mirc.com/get.html">mIRC</a>, alternatively you can use the web client we provide below. 
-         Simply choose a nick (preferably your RSN) and press Connect to join our main channel.
+         Simply choose a nickname (preferably your RSN) and press Connect to join our main channel.
       </p>
       
       <div style="text-align:center">
@@ -47,8 +47,17 @@
       <h3>IRC Registration</h3>
       <p>To register your chosen nick on SwiftIRC, follow the steps below:</p>
       <ol>
-        <li>Once you've connected to SwiftIRC with your chosen nick, you can register it with the following command:
+        <li>Once you've connected, you can now register your nick! If your nick is not available or 
+        you want to change it, do the following:<br><kbd>/nick NEW_NICKNAME</kbd></li>
+        <li>If you are happy with your current nick and it's available, you can register it with the following command:
           <br><kbd>/ns register PASSWORD PASSWORD EMAIL EMAIL</kbd>
+        </li>
+        <li>After executing the command, you should receive an confirmation code to 
+        the email address you used to register. Check your email and do the following command:<br>
+          <kbd>/ns confirm CODE</kbd>
+        </li>
+        <li>Now you've successfully registered, in order to verify your identity when you connect do the following:<br>
+          <kbd>/ns id PASSWORD</kbd>
         </li>
       </ol>
     </div>
